@@ -27,4 +27,4 @@ Depending on what you want to do, here's the commands you'll want to run:
 
 Contributions are welcome, although I am confident this project will not need many, if at all.
 
-[1] you can also use `yarn run serve`, but i much prefer using `dev` myself lol
+[1] you can also use the `serve` script, but i much prefer using `dev` myself lol
