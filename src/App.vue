@@ -40,14 +40,6 @@ export default {
             rate: 0,
             dmg: 0
         }
-    },
-    methods: {
-        aboutApp: function() {
-            this.$buefy.dialog.alert({
-                title: 'About enkanomiya',
-                message: "Hello there! This website is intended to be a community resource for the game <a href='https://genshin.mihoyo.com'>Genshin Impact</a>. It calculates the 'CRIT Value' of an artifact so you don't have to do all that pesky 'mental math' yourself."
-            })
-        }
     }
 }
 </script>
