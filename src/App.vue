@@ -8,12 +8,12 @@
                         <AboutApp/>
                         <hr/>
                         <b-field label="CRIT Rate">
-                            <b-slider v-model="rate" :min="0" :max="22.8" :step="0.1"/>
-                            <b-numberinput class="weirdassfix" v-model="rate" :controls="false" :min="0" :max="22.8" :step="0.1"/>
+                            <b-slider v-model="rate" style="z-index: 9999;" :min="0" :max="22.8" :step="0.1"/>
+                            <b-numberinput v-model="rate" class="weirdassfix" :controls="false" :min="0" :max="22.8" :step="0.1"/>
                         </b-field>
                         <b-field label="CRIT DMG">
-                            <b-slider v-model="dmg" :min="0" :max="46.8" :step="0.1"/>
-                            <b-numberinput class="weirdassfix" v-model="dmg" :controls="false" :min="0" :max="46.8" :step="0.1"/>
+                            <b-slider v-model="dmg" style="z-index: 9999;" :min="0" :max="46.8" :step="0.1"/>
+                            <b-numberinput v-model="dmg" class="weirdassfix" :controls="false" :min="0" :max="46.8" :step="0.1"/>
                         </b-field>
                         <TotalCV :rate="rate" :dmg="dmg"/>
                     </div>
@@ -46,7 +46,7 @@ export default {
 
 <style>
 #app {
-  text-align: center;
+    text-align: center;
 }
 
 .weirdassfix {
@@ -57,6 +57,7 @@ export default {
      * so here's a really fucking stupid fix. see, having a whole basically hacked together
      * personal site comes in handy sometimes ;)
      */
-    margin-left: 5px;
+    margin-left: 12px !important;
 }
+
 </style>
