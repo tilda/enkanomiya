@@ -1,14 +1,15 @@
 <template>
     <div class="notification mt-4">
         <div class="content">
-            This is <b>enkanomiya</b>, an online tool for the game <a href="https://genshin.mihoyo.com">Genshin Impact</a>.
-            <br/>It intends to improve the understanding of the "Artifact" system in the game,<br/> by providing an objective way to decide what's possibly valuable and what's not.
-            <br/>This is achieved through <a href="https://www.reddit.com/r/Genshin_Impact/comments/o5xuc4/simple_infographic_about_critical_value/">a simple "CRIT Value" formula</a>.
-            <hr/><b>"Why would you make this?"</b> Making random web tools is fun.
-            <br/><b>"What's the name from/why?"</b> <a href="https://genshin-impact.fandom.com/wiki/Enkanomiya">Reference from Genshin itself.</a> I thought it sounded cool.
-            <br/><b>"Who made the original formula?"</b> Abell (u/Barocchi on reddit) created this formula.
-            <br/><b>"Is this tool open-source?"</b> <a href="https://github.com/tilda/enkanomiya">It sure is!</a>
-            <hr/><b>Have other questions about this tool?</b> <a href="https://squiggle.cf/contact">Feel free to drop a message</a>.
+            This is <b>enkanomiya</b>, an online toolset for the game <a href="https://genshin.mihoyo.com">Genshin Impact</a>.
+            <br/>It intends to be a useful toolset, filling in for things that other sites have not implemented.
+            <br/>Currently there are a couple of tools implemented, with more possibly coming in the future.
+            <hr/><b>"Why would you make this?"</b> Projects are fun, and I wanted to practice webdev.
+            <br/><b>"What's the name from?"</b> <a href="https://genshin-impact.fandom.com/wiki/Enkanomiya">A reference to Genshin itself</a>, I thought it was cool.
+            <br/><b>"Where did the CV formula come from?"</b> <a href="https://www.reddit.com/r/Genshin_Impact/comments/o5xuc4/simple_infographic_about_critical_value/">The formula was originally created by Abell.</a>
+
+            <hr/><a href="https://github.com/tilda/enkanomiya">This tool is open source.</a>
+            <br/>Also, if you have any other questions, you can <a href="https://squiggly.zone/contact">get in touch</a>.
         </div>
     </div>
 </template>
