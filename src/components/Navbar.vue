@@ -12,8 +12,8 @@
             <b-navbar-item><router-link to="/cv">CV Calc</router-link></b-navbar-item>
         </template>
         <template #end>
-            <b-navbar-item href="https://squiggle.cf">
-                ➡️ squiggle.cf
+            <b-navbar-item href="https://squiggly.zone">
+                ➡️ squiggly.zone
             </b-navbar-item>
         </template>
     </b-navbar>
