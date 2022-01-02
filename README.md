@@ -3,16 +3,17 @@
 
 (from the [Genshin Impact Wiki article](https://genshin-impact.fandom.com/wiki/Enkanomiya))
 
-A quick and dirty way to calculate CV (Crit Value) for artifacts in the game [Genshin Impact](https://genshin.mihoyo.com). 
+A web toolbox for the game [Genshin Impact](https://genshin.mihoyo.com).
 
-# How does it work, and why?
-How it works: CV is calculated using the Crit DMG (CD) and Crit Rate (CR) of an artifact. The formula is as follows: `CD + (CR*2)`. Very simple, actually.
-
-But why would I make a whole fucking web application for this you ask? Well, reasons. The 1st one being I'm super lazy and don't feel like remembering things and doing math. The 2nd one being I needed projects to do, and this seemed fun.
-
-The image below shows the idea behind this measurement:
-
-![](https://media.discordapp.net/attachments/884099555073859634/884104408160407552/CV-1.png?width=500&height=357)
+# Features
+- CV (Crit Value) Calculator
+  - Relatively simple but I'm lazy and don't feel like doing math
+- Adventure Rank estimated time calculator
+  - No one ever seemed to think about this so I went ahead and did it myself
+  - ~~Don't look at how many days it will take to go from AR45 to AR60~~
+- (Planned) recipe list
+  - Being a completionist is cursed
+  - Will include recipe locations, completion progress, etc.
 
 ## Development shit
 
