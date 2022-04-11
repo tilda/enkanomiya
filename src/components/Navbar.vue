@@ -2,7 +2,7 @@
     <b-navbar>
         <template #brand>
             <b-navbar-item tag="div">
-                enkanomiya by tilda
+                enkanomiya
             </b-navbar-item>
         </template>
         <template #start>
@@ -12,9 +12,15 @@
             <b-navbar-item><router-link to="/cv">CV Calc</router-link></b-navbar-item>
         </template>
         <template #end>
-            <b-navbar-item href="https://squiggly.zone">
-                ➡️ squiggly.zone
+            <b-navbar-item href="https://stairway.cf">
+                <img src="https://stairway.cf/landing/stairway.svg" width="32" height="32" class="dorchadas"> a stairway service
             </b-navbar-item>
         </template>
     </b-navbar>
 </template>
+
+<style scoped>
+    .dorchadas {
+        margin-right: 5px;
+    }
+</style>
