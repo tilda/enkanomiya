@@ -13,7 +13,7 @@
         </template>
         <template #end>
             <b-navbar-item href="https://stairway.cf">
-                <img src="https://stairway.cf/landing/stairway.svg" width="32" height="32" class="dorchadas"> a stairway service
+                <img src="https://f000.backblazeb2.com/file/stairway-cdn/stairway.svg" width="32" height="32" class="dorchadas"> a stairway service
             </b-navbar-item>
         </template>
     </b-navbar>
